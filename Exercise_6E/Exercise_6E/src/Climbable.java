@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class Climbable {
+public interface Climbable {
+    // No methods specified
 }

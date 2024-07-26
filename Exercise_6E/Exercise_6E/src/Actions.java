@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class Actions {
+public enum Actions {
+    FORWARD, LEFT, RIGHT, REVERSE, START, STOP;
+
+    @Override
+    public String toString() {
+        return name();
+    }
 }

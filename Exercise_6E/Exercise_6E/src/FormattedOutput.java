@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class FormattedOutput {
+public interface FormattedOutput {
+    String getFormatted();
 }
